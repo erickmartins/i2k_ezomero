@@ -1,3 +1,5 @@
+This workshop requires two things: a Python environment with `ezomero` installed and access to an OMERO server. There are a few options to get that done:
+
 ## Option 1 
 **If you don't have either and you can install Docker on your machine** (or already have it installed): clone this repository and run the following lines in a command line (terminal, powershell, etc) on the repository directory:
 ```
