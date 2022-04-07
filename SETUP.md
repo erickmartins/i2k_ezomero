@@ -25,10 +25,10 @@ conda install -c ome zeroc-ice36-python
 pip install ezomero jupyterlab
 jupyter lab
 ```
-That would get you to the same place as option 1 - you should have a jupyterlab server running locally that you can connect to with the address it provides. 
+That would get you to the same place as option 1 - you should have a jupyterlab server running locally that you can connect to with the address it provides. Your OMERO server should be accessible via its usual address.
 
 ## Option 3:
-**If you already have an ezomero Python environment, but no OMERO server**: first off, wow. Thank you for having ezomero installed even without an OMERO server to use it on :) I'd recommend using the same steps as option 1 - you will get a *new* Python environment with ezomero, but it's easier than trying a separate set of steps to run an OMERO server locally. 
+**If you already have an ezomero Python environment, but no OMERO server**: first off, wow. Thank you for having ezomero installed even without an OMERO server to use it on :) I'd recommend using the same steps as option 1 - you will get a *new* Python environment with ezomero, but it's easier than trying a separate set of steps to run an OMERO server locally. Your OMERO server should be accessible from your Python environment at `localhost`.
 
 ## Option 4: 
 **If you don't have either and you CANNOT install Docker on your machine**: this is the most problematic case. You can use option 2 to do the Python installation part, but you WILL need an OMERO server to access. You will either need to manually install an OMERO server locally, or ask nicely for someone with an OMERO server for credentials to test stuff. If you find yourself completely lost without a server to use, feel free to reach out to me and we can see what we can do about it.

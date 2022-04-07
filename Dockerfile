@@ -10,6 +10,7 @@ SHELL ["conda", "run", "-n", "workshop", "/bin/bash", "-c"]
 RUN pip install --upgrade jupyterlab jupyterlab-git
 RUN jupyter lab build
 COPY requirements_container.txt .
+COPY *.ipynb ./work
 RUN pip install -r requirements_container.txt
 RUN echo "conda activate workshop" >> ~/.bashrc
 RUN conda install ipykernel
