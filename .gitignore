@@ -129,4 +129,4 @@ dmypy.json
 .pyre/
 
 # File with omero configs
-config.py
+#config.py
