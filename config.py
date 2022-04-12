@@ -1,5 +1,5 @@
 OMEROUSER = 'root'
 OMEROPASS = 'omero'
-OMEROHOST = 'localhost'
+OMEROHOST = '"host.docker.internal"'
 OMEROPORT = 6064 
 OMEROWEB = 'localhost:5080'
